@@ -1,0 +1,44 @@
+[
+    {
+        "instanceId": "i-1234567890abcdef0",
+        "name": "Web Server 1",
+        "region": "us-east-1",
+        "environment": "production",
+        "instanceType": "t3.medium",
+        "privateIp": "10.0.1.10",
+        "publicIp": "54.210.167.204",
+        "keyName": "web-keypair",
+        "vpcId": "vpc-12345678",
+        "subnetId": "subnet-12345678",
+        "osType": "Amazon Linux 2",
+        "description": "Primary web server"
+    },
+    {
+        "instanceId": "i-0987654321abcdef0",
+        "name": "Database Server",
+        "region": "us-east-1",
+        "environment": "production",
+        "instanceType": "r5.large",
+        "privateIp": "10.0.2.20",
+        "publicIp": "",
+        "keyName": "db-keypair",
+        "vpcId": "vpc-12345678",
+        "subnetId": "subnet-87654321",
+        "osType": "Amazon Linux 2",
+        "description": "Primary database server"
+    },
+    {
+        "instanceId": "i-abcdef1234567890",
+        "name": "Dev Server",
+        "region": "us-west-2",
+        "environment": "development",
+        "instanceType": "t3.small",
+        "privateIp": "10.1.1.100",
+        "publicIp": "52.32.45.67",
+        "keyName": "dev-keypair",
+        "vpcId": "vpc-87654321",
+        "subnetId": "subnet-abcdef12",
+        "osType": "Ubuntu 20.04",
+        "description": "Development environment"
+    }
+]

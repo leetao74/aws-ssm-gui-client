@@ -1,0 +1,4 @@
+instanceId,name,region,environment,instanceType,privateIp,publicIp,keyName,vpcId,subnetId,osType,description
+i-020ed61b3fdef95e8,tac_dev_secure01,ap-northeast-1,production,t3.medium,10.0.3.142,,web-keypair,vpc-12345678,subnet-12345678,Amazon Linux 2,Primary web server
+i-0987654321abcdef0,Database Server,us-east-1,production,r5.large,10.0.2.20,,db-keypair,vpc-12345678,subnet-87654321,Amazon Linux 2,Primary database server
+i-abcdef1234567890,Dev Server,us-west-2,development,t3.small,10.1.1.100,52.32.45.67,dev-keypair,vpc-87654321,subnet-abcdef12,Ubuntu 20.04,Development environment
